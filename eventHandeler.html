@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #error-sms{
+         font-size: 30px;
+      }
+       .frame{
+        background-color:darkslategrey;
+        width: 500px;
+        height: 200px;
+       
+       }
+       .frameInput{
+        margin-top: 80px;
+        margin-left: 100px;
+        
+       }
+    
+    </style>
+</head>
+<body>
+ <!-- input button field -->
+ <div class="frame">
+    <input class="frameInput" id="input-Frame" type="text" placeholder="Enter Your Email">
+    <button id="count" onclick="CheckEmail()">submit</button>
+ </div>
+<!-- error sms -->
+ <div id="error-sms">
+     
+ </div>
+ <script src="function.js"></script>
+</body>
+</html>
